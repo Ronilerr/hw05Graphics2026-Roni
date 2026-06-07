@@ -49,11 +49,14 @@ This project implements the static HW05 bowling alley infrastructure using THREE
 - OrbitControls vendored locally in `src/OrbitControls.js`
 
 ## Screenshots
-Add submission screenshots here or in a `screenshots/` folder:
-- Overall view of the bowling lane with pins
-- Close-up of the pin formation
-- Bowling ball on the approach area
-- Camera controls demonstration
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Overall view](screenshots/overall-view.png) | Full lane with pins, ball, and overhead monitor (bowler view) |
+| ![Pin close-up](screenshots/pin-closeup.png) | Triangular pin formation close-up |
+| ![Ball on approach](screenshots/ball-approach.png) | Bowling ball with finger holes on the approach area |
+| ![Camera controls](screenshots/camera-controls.png) | Overhead camera preset (key **2**) |
+| ![Bonus side view](screenshots/bonus-side-view.png) | Side view showing ball return, seating, and bonus features |
 
 ## Complete Instructions
 Full assignment requirements and grading criteria: `bowling_exercise_instructions.html`

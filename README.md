@@ -18,6 +18,10 @@
 
 ## Controls
 - **O** — Toggle orbit camera (drag to rotate, scroll to zoom)
+- **1** — Bowler view
+- **2** — Overhead view
+- **3** — Pin-end view
+- **4** — Side view
 
 ## Implementation Summary
 This project implements the static HW05 bowling alley infrastructure using THREE.js:
@@ -28,8 +32,13 @@ This project implements the static HW05 bowling alley infrastructure using THREE
 - **Camera & lighting:** bowler perspective, orbit controls, directional shadows, responsive resize
 - **UI:** HTML/CSS placeholders for a future scorecard and controls panel (HW06)
 
-## Additional Features
-None beyond the required HW05 infrastructure.
+## Additional Features (Bonus)
+- **Ball return track** on the right side with a returned spare ball
+- **Seating bench** behind the approach area
+- **Overhead scoring monitor** above the lane
+- **Lane bumpers** (raised guards along the gutters)
+- **Procedural textures** — wood grain on the lane, carpet pattern on the approach
+- **Camera presets** — keys 1–4 switch between bowler, overhead, pin-end, and side views
 
 ## Known Issues / Limitations
 - Finger holes are simplified geometric shapes, not boolean cutouts from the ball mesh
